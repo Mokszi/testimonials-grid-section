@@ -17,21 +17,69 @@ section{
 
 .daniel{
     grid-area: 1/1/2/3;
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(214, 17%, 92%);
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.daniel img{
+    border-radius: 100%;
+    border-color: hsl(264, 82%, 80%);
+    border-style: solid;
+    width: 4%;
 }
 
 .jonathan{
     grid-area: 1/3/2/4;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(214, 17%, 92%);
+    border-radius: 5px;
+    padding: 10%;
+}
+
+.jonathan img{
+    border-radius: 100%;
+    width: 10%;
 }
 
 .jeanette{
     grid-area: 2/1/3/2;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(224, 10%, 45%);
+    border-radius: 5px;
+    padding: 10%;
+}
+
+.jeanette img{
+    border-radius: 100%;
+    width: 10%;
 }
 
 .patrick{
     grid-area: 2/2/3/4;
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(214, 17%, 92%);
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.patrick img{
+    border-radius: 100%;
+    border-color: hsl(263, 55%, 52%);
+    border-style: solid;
+    width: 4%;
 }
 
 .kira{
     grid-area: 1/4/3/5;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(224, 10%, 45%);
+    border-radius: 5px;
+    padding: 10%;
 }
 
+.kira img{
+    border-radius: 100%;
+    width: 10%;
+}
