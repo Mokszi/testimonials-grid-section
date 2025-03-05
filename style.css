@@ -6,8 +6,9 @@ body{
     justify-content: center;
     margin: 0;
     height: 100vh;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 section{
@@ -21,13 +22,47 @@ section{
     color: hsl(214, 17%, 92%);
     border-radius: 5px;
     padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 35px 30px 75px hsl(224, 10%, 45%);
 }
 
 .daniel img{
     border-radius: 100%;
     border-color: hsl(264, 82%, 80%);
     border-style: solid;
-    width: 4%;
+    border-width: 2px;
+    width: 60%;
+    align-self: flex-start;
+}
+
+.daniel_flex{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.daniel_flex_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.daniel_flex_img{
+    display: flex;
+}
+
+.daniel_flex_name{
+    font-size: 15px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .jonathan{
@@ -36,11 +71,39 @@ section{
     color: hsl(214, 17%, 92%);
     border-radius: 5px;
     padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 35px 30px 75px hsl(224, 10%, 45%);
 }
 
 .jonathan img{
     border-radius: 100%;
-    width: 10%;
+    width: 65%;
+    align-self: flex-start;
+}
+
+.jonathan_flex{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.jonathan_flex_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jonathan_flex_img{
+    display: flex;
+}
+
+.jonathan_flex_name{
+    font-size: 15px;
 }
 
 .jeanette{
@@ -49,11 +112,39 @@ section{
     color: hsl(224, 10%, 45%);
     border-radius: 5px;
     padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 35px 30px 75px hsl(224, 10%, 45%);
 }
 
 .jeanette img{
     border-radius: 100%;
-    width: 10%;
+    width: 65%;
+    align-self: flex-start;
+}
+
+.jeanette_flex{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.jeanette_flex_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jeanette_flex_img{
+    display: flex;
+}
+
+.jeanette_flex_name{
+    font-size: 15px;
 }
 
 .patrick{
@@ -62,13 +153,40 @@ section{
     color: hsl(214, 17%, 92%);
     border-radius: 5px;
     padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 35px 30px 75px hsl(224, 10%, 45%);
 }
 
 .patrick img{
     border-radius: 100%;
     border-color: hsl(263, 55%, 52%);
     border-style: solid;
-    width: 4%;
+    width: 60%;
+    align-self: flex-start;
+    border-width: 2px;
+}
+
+.patrick_flex{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.patrick_flex_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.patrick_flex_img{
+    display: flex;
+}
+
+.patrick_flex_name{
+    font-size: 15px;
 }
 
 .kira{
@@ -76,10 +194,37 @@ section{
     background-color: hsl(0, 0%, 100%);
     color: hsl(224, 10%, 45%);
     border-radius: 5px;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 35px 30px 75px hsl(224, 10%, 45%);
 }
 
 .kira img{
+    align-self: flex-start;
     border-radius: 100%;
-    width: 10%;
+    width: 65%;
+}
+
+.kira_flex{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.kira_flex_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kira_flex_img{
+    display: flex;
+}
+
+.kira_flex_name{
+    font-size: 15px;
 }
