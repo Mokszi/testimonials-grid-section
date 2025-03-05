@@ -228,3 +228,38 @@ span{
 .kira_flex_name{
     font-size: 15px;
 }
+
+@media screen and (max-width: 675px){
+    body{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    .daniel{
+        padding: 10%;
+        grid-area: auto;
+    }
+
+    .jonathan{
+        padding: 10%;
+        grid-area: auto;
+    }
+
+    .jeanette{
+        padding: 10%;
+        grid-area: auto;
+    }
+
+    .patrick{
+        padding: 10%;
+        grid-area: auto;
+    }
+
+    .kira{
+        padding: 10%;
+        grid-area: auto;
+    }
+}
